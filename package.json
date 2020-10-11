@@ -1,0 +1,14 @@
+{
+  "name": "eastenblog2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy": "yarn build && deploy-gh.sh"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.6.5"
+  }
+}
